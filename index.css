@@ -1,4 +1,4 @@
-/* Default styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +29,7 @@ body {
     padding: 40px 30px 70px;
     border-radius: 10px;
     width: 100%;
-    max-width: 540px; /* Set a specific max width */
+    max-width: 540px; 
     height: auto;
     overflow-y: auto;
 }
@@ -67,7 +67,7 @@ input {
 button {
     border: none;
     outline: none;
-    padding: 16px 40px; /* Adjusted padding */
+    padding: 16px 40px; 
     background-color: #ff5945;
     color: white;
     font-size: 16px;
@@ -79,8 +79,8 @@ button {
 ul {
     list-style: none;
     padding: 0;
-    max-height: 200px; /* Adjusted max height for better scrollability */
-    overflow-y: auto; /* Allow scrolling */
+    max-height: 200px; 
+    overflow-y: auto; 
     margin: 0;
 }
 
@@ -98,7 +98,7 @@ ul li::before {
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url('../Assets/Images/Todo/unchecked.png');
+    background-image: url('/unchecked.png');
     background-size: cover;
     background-position: center;
     top: 10px;
@@ -111,7 +111,7 @@ ul li.checked {
 }
 
 ul li.checked::before {
-    background-image: url('../Assets/Images/Todo/checked.png');
+    background-image: url('/checked.png');
 }
 
 ul li span {
